@@ -1,0 +1,161 @@
+.hero-wrapper {
+  position: relative; /* Position for overlay */
+  background-image: url("../../assets/images/7958558d1249b1216f9bc50ae7310039.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  filter: url();
+}
+
+.hero-container {
+  position: relative; /* Position for overlay */
+}
+
+.hero-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+/* Style the text content in the middle */
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px; /* Adjust the font size as needed */
+  font-size: 18px;
+}
+/* Style the text content in the middle */
+.hero-content {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  padding: 20px;
+}
+
+/* Style the heading */
+.hero-content h1 {
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 20px;
+}
+
+/* Style the paragraph text */
+.hero-content p {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--light);
+  background: none;
+  cursor: pointer;
+  transition: color 0.25s;
+}
+
+/* .explore-btn:hover {
+}  */
+
+.explore-btn:hover {
+} /* Responsive styles for smaller screens */
+
+.explore-btn:hover {
+  /* border: none; */
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.search-form-container {
+  margin: -129px auto;
+  z-index: 11;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-size: cover;
+    min-height: 80vh;
+  }
+
+  .hero-content {
+    max-width: 80%;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+  /* Adjust styles for screens with a maximum width of 768px */
+  .hero {
+    background-size: cover;
+    min-height: 80vh;
+  }
+
+  .hero-content {
+    max-width: 80%;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+  /* Adjust styles for screens with a maximum width of 768px */
+  .hero {
+    background-size: cover;
+    min-height: 80vh; /* Reduce the minimum height for smaller screens */
+  }
+
+  .hero-content {
+    max-width: 80%; /* Reduce the maximum width for smaller screens */
+  }
+
+  .hero-content h1 {
+    font-size: 28px; /* Adjust the font size for smaller screens */
+  }
+
+  .hero-content p {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+
+  .search-form-container {
+    width: 80%;
+  }
+}

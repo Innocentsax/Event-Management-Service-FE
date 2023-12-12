@@ -1,0 +1,81 @@
+.event-container {
+  background-color: #ffffff;
+  width: 321px;
+  margin: 57px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  background-image: url(../images/7bc696a….jpeg);
+  background-size: cover;
+  width: 321px;
+  height: 188px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.event-details {
+  background-color: #f8f9fa;
+  display: grid;
+  flex-direction: row;
+  /* justify-content: center; */
+  padding: 19px;
+  margin: 0;
+  width: 321px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+}
+/* 
+.event-title {
+  display: flex;
+  align-items: baseline;
+} */
+
+.calendar {
+  display: flex;
+  align-items: center;
+  margin-right: 13px;
+  flex-direction: column;
+  color: var(--primary);
+  width: 30px;
+}
+
+h4 {
+  margin: 0;
+  font-size: 18px;
+  color: black;
+}
+
+.event-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.cal-tag {
+  /* text-align: center; */
+  color: #10375c;
+}
+
+.event-title {
+  display: flex;
+}
+
+.fa-calendar-days {
+  margin-right: 4px;
+  color: #e63e0c90;
+}
+
+@media (min-width: 768px) {
+  #root > div:nth-child(5) {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+}
+
+@media (min-width: 1158px) {
+  #root > div:nth-child(5) {
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+}

@@ -1,0 +1,99 @@
+/* UpcomingEventsSection.css */
+
+.upcoming-events-section {
+  text-align: center;
+  padding: 20px;
+  height: 14vh;
+  background-color: var(--body-bg-color);
+}
+
+.upcoming-events-section h2 {
+  color: black;
+}
+
+.events-filter_container h2 {
+  text-align: center;
+}
+
+.load-more-container {
+  display: flex;
+}
+
+.home-text {
+  margin: 64px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#root > section > div > div > div > select {
+  background-color: var(--primary);
+  border: none;
+}
+
+#root > section > div > div > div > select:hover {
+  /* background-color: var(--secondary); */
+  cursor: pointer;
+}
+
+.button span {
+  margin-right: 10px;
+}
+
+.button i {
+  font-size: 14px;
+}
+
+/* .button:hover {
+  background-color: var(--secondary);
+} */
+
+.button span {
+  margin-right: 10px;
+  color: rgb(81, 81, 81);
+}
+
+/* .button:hover {
+  background-color: #10375c;
+  color: #fff;
+} */
+
+.button span:hover {
+  color: #fff;
+}
+
+/* .button i {
+  color: #ffa909;
+} */
+
+/* ... (remaining styles) ... */
+
+@media (min-width: 768px) {
+  .events-filter_container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

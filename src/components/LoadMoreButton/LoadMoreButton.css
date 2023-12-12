@@ -1,0 +1,42 @@
+
+.load-more-button,
+.prev-page-button {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  margin: 11px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.load-more-button:hover,
+.prev-page-button:hover {
+  background-color: var(--secondary);
+  text-decoration: none;
+}
+
+
+.load-more-button.loading {
+  background-color: #aaa; 
+  animation: pulse 1s infinite; 
+}
+
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

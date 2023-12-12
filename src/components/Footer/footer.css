@@ -1,0 +1,53 @@
+@import "../../index.css";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary);
+  color: var(--light);
+  padding: 55px 80px;
+}
+
+.footer .logo {
+  color: var(--light);
+}
+
+.footer-socials {
+  gap: 20px;
+}
+
+.footer-nav-menu,
+.footer-socials {
+  display: flex;
+}
+
+.footer-nav-menu {
+  gap: 7rem;
+  flex-basis: 55%;
+}
+
+.footer-nav-item a {
+  color: var(--light);
+}
+
+.update {
+  flex: 1;
+}
+
+.footer-input {
+  display: flex;
+  align-items: center;
+  background-color: var(--light-20-opaque);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.footer-input input {
+  background-color: transparent;
+  color: var(--light);
+}
+
+.footer-input input::placeholder {
+  color: var(--light);
+  font-size: inherit;
+}

@@ -1,0 +1,51 @@
+@import "../../index.css";
+
+.main {
+  display: flex;
+  background-color: var(--grey-light);
+}
+
+.main > * {
+  flex: 1;
+}
+
+.form-space {
+  padding: 100px 70px;
+}
+
+.forgot-password {
+  display: block;
+}
+
+.create-acc {
+  text-align: center;
+}
+
+.create-acc-link {
+  color: var(--primary);
+}
+
+.btn-lg {
+  display: block;
+  width: 100%;
+}
+
+.email-fieldset {
+  margin-bottom: var(--p-md);
+}
+
+.password-fieldset {
+  margin-bottom: var(--p-sm);
+}
+
+.input-label {
+  height: 100%;
+  width: 100%;
+}
+
+.image-space {
+  flex: 1.5;
+  background-image: url(../../assets/images/image.jpg);
+  background-position: center;
+  background-size: cover;
+}

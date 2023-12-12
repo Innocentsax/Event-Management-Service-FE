@@ -1,0 +1,37 @@
+.user-event{
+     background-color: #F8F9FA;
+     width: 100%;
+     padding: 2rem  6rem;
+}
+
+.single-user-event-entry{
+     display: flex;
+     flex-direction: row;
+}
+.event-entry-section{
+     flex: 1;
+     display: flex;
+}
+
+.event-record-img img{
+     max-width: 300px;
+     width: 90%;
+     object-fit: cover;
+     object-position: center;
+     height: 100%;
+}
+.event-links{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+}
+.event-entry-sub-section{
+     flex: 1;
+}
+.event-entry-sub-section div{
+     margin-bottom: 6px;
+}
+
+.label{
+     font-weight: 700;
+}

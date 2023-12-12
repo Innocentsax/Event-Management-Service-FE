@@ -1,0 +1,102 @@
+
+.event-details-cont{
+    padding: 4rem;
+}
+
+.event-booking-headlines{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-booking-headlines .hint{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.user-info{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.user-info .info-sec{
+    flex: 1;
+}
+.info-sec fieldset legend{
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.ticket-sect-text{
+    font-weight: 600;
+}
+
+.tiket-card{
+    display: flex;
+    padding: 15px;
+    background-color: rgba(0, 50, 47, 0.05);
+    align-items: center;
+
+}
+.ticket-right-align{
+    flex: 1;
+}
+.ticket-left-align{
+    flex: 1
+}
+.booking-up-input{
+    width: 60px;
+    text-align: center;
+    background-color: white;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.map-btn{
+    padding-top: 4px;
+    padding-bottom: 5px;
+    border: none;
+}
+
+.booking-up-btn{
+    padding: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 60px;
+    color: black;
+    background-color: white;
+}
+.ticket-left-align{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.ticket-info-text{
+    font-size: 0.9.5rem;
+}
+
+.ticket-info-quant{
+    font-size: 0.85rem;
+}
+.tk-margin-top{
+    margin-top: 2px;
+}
+.btn-book-event-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-book-event-cont button{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.booking-text-input{
+    background-color: white;
+}
+
+.checkout-success-message{
+    color: green;
+}

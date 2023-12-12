@@ -1,0 +1,80 @@
+.header {
+  height: 40vh;
+  background-image: url(/src/assets/images/7958558d1249b1216f9bc50ae7310039.jpeg);
+  color: var(--light);
+}
+
+.checkout {
+  background-color: var(--light);
+}
+
+.btn a {
+  width: 100%;
+  color: var(--light);
+}
+
+.header {
+  padding: 50px 80px 0;
+}
+
+.header button {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.checkout-main {
+  padding: 60px;
+}
+
+.main-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ticket-card {
+  background-color: #00322f08;
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.ticket-card > * {
+  padding: 20px;
+}
+
+.card-head {
+  border-bottom: 1px solid var(--color);
+}
+
+.card-head h2 {
+  margin: 0;
+}
+
+.card-item h6 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.card-item p {
+  font-weight: 500;
+}
+
+.card-date-time p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item:not(:last-child) {
+  border-bottom: 1px solid var(--color);
+}
+
+.card-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-btn {
+  margin: auto;
+  width: 95%;
+}

@@ -1,0 +1,38 @@
+.custom-option option{
+    border: none;
+    outline: none;
+    background-color: #F8F9FA;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+.custom-option{
+    border: none;
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.custom-option:active{
+    outline: none;
+}
+.custom-option:focus{
+    outline: none;
+}
+.account-holder{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.account-group{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #bdc7d1;
+}
+
+.save-bank-btn-cont{
+    margin-top: 2rem;
+    width: 100%;
+}
+.save-bank-btn-cont button{
+    width: 100%;
+}

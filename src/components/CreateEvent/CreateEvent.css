@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+.event{
+    width: 100%;
+    padding: 2rem 6rem;
+    background-color: #F8F9FA;
+}
+
+.div-info{
+    border:  1px solid #932F19;
+    color: #932F19;
+    background-color: #FEFBE8;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+}
+.input-group{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+input, textarea{
+    background-color: #F8F9FA;
+    width: 100%;
+    cursor: pointer;
+}
+textarea:hover{
+    outline: none;
+}
+textarea:active{
+    outline: none;
+}
+textarea{
+    border: none;
+}
+textarea:focus{
+    outline: none;
+}
+legend{
+    font-weight: 600;
+}
+.double-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.sub-cont{
+    width: 50%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+.sub-cont .input-group fieldset button,select{
+    width: 100%;
+}
+.sub-cont .input-group{
+    width: 90%;
+}
+#event-category{
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #F8F9FA;
+    height: 3rem;
+}
+#event-category option{
+    border: none;
+    outline: none;
+    background-color: #F8F9FA;;
+}
+
+#btn-setup-ticket{
+    padding: 8px 16px;
+    background-color: #F8F9FA;
+    margin-bottom: 7px;
+}
+.left-group-sub{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+.event-banner{
+    width: 100%;
+    border: 0.2px solid #979797;
+}
+.event-banner h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.event-banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.event-banner-content span{
+    font-size: 1.2rem;
+}
+.event-banner-content p{
+    color: #252D42;
+    opacity: 29%;
+    font-size: 0.8rem;
+}
+
+.location-modal{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(2, 1, 1, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location-online{
+    padding: 2rem 4rem;
+    background-color: white;
+    width: 50%;
+    min-width: 400px;
+    border-radius: 6px;
+}
+.location-online button{
+    width: 100%;
+}
+
+.date-time-btn{
+    width: 40%;
+    max-width: 300px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.date-time-group{
+    width: 80%;
+    max-width: 800px;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-continue{
+    margin-top: 5rem;
+    width: 100%;
+}
+.save-continue button{
+    width: 100%;
+}
